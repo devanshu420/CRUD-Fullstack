@@ -11,7 +11,7 @@ const router = express.Router();
 // POST /content-create
 router.post("/content-create", createContentController);
 
-router.get("/", getContentController);
+router.get("/getContent", getContentController);
 
 router.patch("/content-update/:id", updateContentController);
 
